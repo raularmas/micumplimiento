@@ -38,6 +38,7 @@ body {
     font: normal 1.8rem sans-serif;
     height: 30px;
     width: 100%;
+    padding: 5px;
 }
 .grid-form > .box {
     border: gray solid 1px;
