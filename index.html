@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="grid-form">
+            <span>Meta propuesta:</span>
+            <input type="text" id="goal-box"/>
+            <span>Total cumplido:</span>
+            <input type="text" id="fulfilled-box"/>
+            <span>Total cumplido %:</span>
+            <span class="box" id="fulfilled-perc-box"></span>
+            <span>Faltaron: </span>
+            <span class="box" id="missing-box"></span>
+        </div>
+        <span class="indicator" id="indicator-color"></span>
+        <div class="flex-submit" id="button-section">
+            <input type="submit" value="Calcular" onclick="calculate()"/>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
