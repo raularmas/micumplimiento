@@ -23,7 +23,7 @@ body {
 .grid-form {
     display: grid;
     gap: 5px;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     max-width: 600px;
 }
 .grid-form span {
