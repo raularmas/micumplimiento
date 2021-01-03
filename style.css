@@ -20,6 +20,14 @@ body {
     padding: 20px;
 }
 
+.descr-box {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-bottom: 60px;
+    text-align: center;
+    /* letter-spacing: 1px; */
+}
+
 .grid-form {
     display: grid;
     gap: 5px;
