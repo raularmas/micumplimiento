@@ -7,12 +7,10 @@ function calculate() {
 
     goalBox = Number(goalBox.value)
     fulfilledBox = Number(fulfilledBox.value)
-
-    // var missing = (fulfilledBox > goalBox) ? 0 : goalBox - fulfilledBox
-    // missing = missing.toFixed(2)
-    // missingBox.innerHTML = missing
-    missingBox.innerHTML = fulfilledBox - goalBox
-    
+    missingBox.innerHTML = 
+        (fulfilledBox - goalBox) > 0
+        ? "+" + (fulfilledBox - goalBox).toFixed(2)
+        : (fulfilledBox - goalBox).toFixed(2)
     var fulfilledPerc = fulfilledBox * 100 / goalBox
     fulfilledPerc = fulfilledPerc.toFixed(2)
     fulfilledPercBox.innerHTML = fulfilledPerc + "%"
